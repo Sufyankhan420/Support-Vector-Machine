@@ -26,7 +26,7 @@ The dataset used in this project can be found on [Kaggle's Dogs vs. Cats](https:
 
 ## Requirements
 Install the necessary packages with:
-```bash
+
 pip install -r requirements.txt
 
 Key libraries:
@@ -37,22 +37,18 @@ pandas
 scikit-learn
 matplotlib
 
-Usage
+# Usage
 1. Clone the Repository
-bash
-Copy code
 git clone https://github.com/yourusername/cat-dog-svm-classifier.git
 cd cat-dog-svm-classifier
 2. Run the Classifier
 Run the following command to load, preprocess, train, and evaluate the SVM model:
 
-bash
-Copy code
 python src/svm_classifier.py
 3. Generate Submission File
 A submission file, submission.csv, will be generated for Kaggle submissions after running the classifier on the test dataset.r
 
-Results
+# Results
 The model achieves a balanced accuracy on the validation set. Further tuning of parameters, such as the kernel type, may improve the results.
 
 Metric	Value
